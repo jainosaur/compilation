@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile {
+    text-align: center;
+    margin-right: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+}
+
+.profile p {
+    font-size: 10px;
+    margin-top: 15px;
+    color: white;
+}
+
+.info {
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.info h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: "Arial Black";
+}
+
+.info h2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-family: "Lucida Calligraphy"
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+    background-color: lightgreen;
+}
